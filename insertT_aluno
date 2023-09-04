@@ -11,3 +11,14 @@ true,
 '2003-09-04 16:59:00');
 
 select * from t_aluno;
+
+update t_aluno set nome = 'Maria',
+				   cpf = '11155633392', observacao = 'Teste',
+				   idade = 20,
+				   dinheiro = 15.000,
+				   altura = 1.80,
+				   ativo = false,
+				data_nascimento = '2003-06-20' ,
+					horario_aula = '14:00:00',
+					dt_matricula = '2003-09-04 17:08:00'
+where id = 1;
