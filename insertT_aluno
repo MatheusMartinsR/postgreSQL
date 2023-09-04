@@ -1,0 +1,21 @@
+insert into t_aluno(nome,
+				   cpf, observacao,
+				   idade,
+				   dinheiro,
+				   altura,
+				   ativo,
+				data_nascimento,
+					horario_aula,
+					dt_matricula
+				   ) values('Matheus Martins',
+									'49750929940',
+									'TESTE, somente utilzado para aprender o tipo text',
+									20,
+								   10.200,
+								 1.90,
+							     true,
+						   '2003-08-29',
+						   '19:30:00',
+						   '2003-09-04 16:59:00');
+
+select * from t_aluno;
