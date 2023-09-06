@@ -1,0 +1,18 @@
+select * from t_aluno where cpf is null;
+select * from t_aluno where cpf is not null;
+
+select * from t_aluno where idade <= 20;
+select * from t_aluno where idade != 20;
+select * from t_aluno where idade >= 20;
+
+select * from t_aluno where idade between 10 and 20;
+
+select * from t_aluno where ativo = true;
+
+select nome, ativo as aluno_ativo from t_aluno 
+where ativo = false;
+
+select * from t_aluno where ativo is not null;
+select * from t_aluno where ativo is null;
+
+
