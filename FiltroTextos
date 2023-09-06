@@ -1,0 +1,25 @@
+select * from t_aluno;
+
+select dt_matricula as data_matriculado
+from t_aluno;
+select nome as nome_completo 
+from t_aluno;
+
+insert into t_aluno (nome) values ('Caio');
+insert into t_aluno (nome) values ('Felipe');
+insert into t_aluno (nome) values ('Augusto');
+
+select * from t_aluno where nome != 'Caio';
+select * from t_aluno where nome != 'Felipe';
+select * from t_aluno where nome != 'Augusto';
+
+
+select * from t_aluno where nome like '_ugusto';
+select * from t_aluno where nome like '_elipe';
+select * from t_aluno where nome not like '_aio';
+
+select * from t_aluno where nome like 'M%';
+
+select * from t_aluno where nome like '% %';
+
+
