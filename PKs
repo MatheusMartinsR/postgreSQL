@@ -1,0 +1,14 @@
+create table t_curso(
+id integer primary key,
+nome varchar(255) not null
+);
+	
+insert into t_curso (id,nome) values (1,'Python');
+insert into t_curso (id,nome) values (1,'JavaScript');
+insert into t_curso (id,nome) values (2,'JavaScript');
+insert into t_curso (id,nome) values (3, 'HTML');
+
+select * from t_curso;
+
+drop table t_curso; 
+
