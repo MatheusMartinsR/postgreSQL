@@ -1,0 +1,9 @@
+select * from t_aluno where nome like 'M%' and cpf is not null;
+select * from t_aluno where nome like 'C%' and cpf is null;
+
+
+select * from t_aluno where nome like 'Matheus Martins' or nome like 'Enzo';
+
+
+
+
